@@ -9,7 +9,7 @@ export default function Button({ icon, title, link }) {
     >
       <div
         className="icon w-8 h-8 bg-current absolute top-1/2 left-2 -translate-y-1/2"
-        style={{ "mask-image": `url(${icon})` }}
+        style={{ "mask-image": `url("${icon}")` }}
       ></div>
 
       <p className="text-center">{title}</p>
